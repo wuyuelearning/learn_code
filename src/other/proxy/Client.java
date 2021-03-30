@@ -1,4 +1,9 @@
-package proxy;
+package other.proxy;
+
+import other.proxy.BeiDaiLi;
+import other.proxy.BeiDaiLi2;
+import other.proxy.DaiLi;
+import other.proxy.DaiLi2;
 
 /**
  * Created by wuyue on 2020/9/16.

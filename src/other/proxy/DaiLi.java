@@ -1,4 +1,8 @@
-package proxy;
+package other.proxy;
+
+import other.proxy.IProxy;
+
+import java.util.HashMap;
 
 /**
  * Created by wuyue on 2020/9/16.

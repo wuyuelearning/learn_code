@@ -1,7 +1,8 @@
-package proxy.DynamicProxy;
+package other.proxy.DynamicProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * Created by wuyue on 2020/9/16.

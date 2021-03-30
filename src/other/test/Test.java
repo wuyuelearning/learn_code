@@ -1,7 +1,8 @@
-package test;
+package other.test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Pattern;
@@ -25,9 +26,31 @@ public class Test {
 //        System.out.println(testObj.b1);
 
 
-        t.fun6();
+        try {
+            for (int i = 0; i < 10; i++) {
+                t.fun8();
+                count=0;
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
+    }
+
+   static int count =0;
+    private void fun8() throws InterruptedException {
+        for (int i=0;i<10;i++){
+            new Thread(
+                    () -> {
+                        for (int j = 0; j < 10000; j++) {
+                            count++;
+                        }
+                    }
+            ).start();
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(count);
 
     }
 
