@@ -1,4 +1,4 @@
-package test;
+package other.test;
 
 /**
  *  通过前序，中序构建搜索二叉树

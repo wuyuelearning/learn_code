@@ -1,4 +1,6 @@
-package proxy;
+package other.proxy;
+
+import other.proxy.IProxy;
 
 /**
  * Created by wuyue on 2020/9/16.

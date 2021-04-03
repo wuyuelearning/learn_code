@@ -1,4 +1,4 @@
-package test.singleton;
+package other.test.singleton;
 
 /**
  * Created by wuyue on 2020/11/18.

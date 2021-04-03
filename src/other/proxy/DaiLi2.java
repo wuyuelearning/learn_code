@@ -1,4 +1,4 @@
-package proxy;
+package other.proxy;
 
 /**
  * Created by wuyue on 2020/9/16.

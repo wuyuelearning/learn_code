@@ -1,7 +1,7 @@
-package proxy.DynamicProxy;
+package other.proxy.DynamicProxy;
 
-import proxy.BeiDaiLi;
-import proxy.IProxy;
+import other.proxy.BeiDaiLi;
+import other.proxy.IProxy;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationHandler;

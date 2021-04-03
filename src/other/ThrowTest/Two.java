@@ -1,4 +1,4 @@
-package ThrowTest;
+package other.ThrowTest;
 
 /**
  * Created by wuyue on 2020/9/16.

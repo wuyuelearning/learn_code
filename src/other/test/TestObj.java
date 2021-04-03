@@ -1,4 +1,4 @@
-package test;
+package other.test;
 
 /**
  * Created by wuyue on 2020/10/9.

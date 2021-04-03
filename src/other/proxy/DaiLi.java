@@ -1,7 +1,5 @@
 package other.proxy;
 
-import other.proxy.IProxy;
-
 import java.util.HashMap;
 
 /**
